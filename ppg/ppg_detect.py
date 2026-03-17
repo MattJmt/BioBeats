@@ -1,7 +1,7 @@
 import serial
 from collections import deque
 
-PORT = "/dev/ttyACM0"
+PORT = "/dev/ttyACM0"   # change to match your system (macOS: /dev/cu.usbserial-*, Windows: COM3)
 BAUD = 115200
 
 # Baseline removal window

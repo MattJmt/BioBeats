@@ -2,11 +2,11 @@ import serial
 from pythonosc import udp_client
 
 # --- Serial input from Arduino ---
-SERIAL_PORT = "/dev/cu.usbserial-120"   # change if needed
+SERIAL_PORT = "/dev/ttyACM0"   # change to match your system (macOS: /dev/cu.usbserial-*, Windows: COM3)
 BAUD_RATE = 115200
 
 # --- OSC UDP output to Max ---
-TARGET_IP = "10.29.145.118"   # Max on same computer
+TARGET_IP = "127.0.0.1"   # change to receiver's IP if Max is on a different machine
 UDP_PORT = 8001
 OSC_ADDRESS = "/emg"
 

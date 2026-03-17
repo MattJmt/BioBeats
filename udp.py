@@ -1,7 +1,7 @@
 from pythonosc import udp_client
 import time
 
-TARGET_IP = "10.29.145.118"  # replace with their IP
+TARGET_IP = "127.0.0.1"  # change to receiver's IP if target is on a different machine
 PORT = 8000
 
 client = udp_client.SimpleUDPClient(TARGET_IP, PORT)

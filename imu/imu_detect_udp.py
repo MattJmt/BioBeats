@@ -16,7 +16,7 @@ TAP_COOLDOWN_SAMPLES = 5   # samples to ignore after a tap (per-IMU)
 TAP_GLOBAL_LOCKOUT = 3   #3  # samples all other IMUs are suppressed after any tap
 
 # --- OSC UDP output ---
-TARGET_IP  = "10.29.145.118"  # replace with receiver's IP
+TARGET_IP  = "127.0.0.1"  # change to receiver's IP if Max is on a different machine
 UDP_PORT   = 9000
 osc_client = udp_client.SimpleUDPClient(TARGET_IP, UDP_PORT)
 
