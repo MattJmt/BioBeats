@@ -2,7 +2,7 @@
 
 [Irvin Dalaud](https://www.linkedin.com/in/irvin-dalaud/) · [Matthias Jammot](https://matthiasjammot.com/) · [Cyrus Pilling](https://www.cyruspilling.com/) · [Patrick Puma](https://www.linkedin.com/in/patrick-puma-367b03189/) · [Sebastian Monzon](https://www.smonzon.com/) · [Lien Tran](https://lienmusicxr.com/)
 
-![BioBeats demo](assets/demo.gif)
+![BioBeats demo](assets/biobeats_explanation.gif)
 
 A multimodal wearable system to play music with your body — built at MIT HARDMODE (48-hour hackathon), and awarded the 🏆 Qualcomm Prize!
 
